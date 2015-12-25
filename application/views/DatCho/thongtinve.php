@@ -6,7 +6,7 @@
 <?php foreach ($thongtin as $value) {?>
 				<tr>
 					<th>Tuyến Đường:</th>
-					<td><? echo $value->LoTrinh?></td>
+					<td><?php echo $value->LoTrinh?></td>
 				</tr>
 				<tr>
 					<th>Giờ xuất phát:</th>

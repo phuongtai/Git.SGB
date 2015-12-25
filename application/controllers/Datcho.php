@@ -24,16 +24,17 @@ class Datcho extends CI_Controller{
 	}
 	public function chuyen($machuyen)
 	{
-		$this->load->model('ChuyenXe_model');
-		if($this->ChuyenXe_model->thong_tin_chuyen($machuyen) != NULL)
-		$result['thongtin'] = $this->ChuyenXe_model->thong_tin_chuyen($machuyen);
+		$this->load->model('Chuyenxe_model');
+		if($this->Chuyenxe_model->thong_tin_chuyen($machuyen) != NULL){
+
+		$result['thongtin'] = $this->Chuyenxe_model->thong_tin_chuyen($machuyen);
 
 		$this->load->view('templates/header');
 		$str="Select maghe,trangthai,vitri from ghe where MaChuyen=".$this->db->escape($machuyen);
 		$kq=$this->db->query($str);
 		$result['data']=$kq->result();
-		$this->load->model('ChuyenXe_model');
-		$soghe=$this->chuyenxe_model->laysoghecuaxe($machuyen);
+		$this->load->model('Chuyenxe_model');
+		$soghe=$this->Chuyenxe_model->laysoghecuaxe($machuyen);
 		//print_r($result);
 		switch ($soghe) {
 			case 45: $this->load->view('DatCho/datcho_view(45)',$result);
@@ -43,6 +44,7 @@ class Datcho extends CI_Controller{
 			case 40: $this->load->view('DatCho/datcho_view(40)',$result);
 			break;
 		}
+	}
 
 	}
 	public function mua_ve($machuyen){

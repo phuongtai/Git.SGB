@@ -1,5 +1,5 @@
 <?php
-	class Ghe_Model extends CI_Model
+	class Ghe_model extends CI_Model
 	{
 		public  function taoma($machuyen)
 		{
@@ -13,9 +13,9 @@
 		}
 		public function khoitaoghe($machuyen)
 		{
+			//echo "$soghe<br>";
 			$this->load->model('chuyenxe_model');
 			$soghe=$this->chuyenxe_model->laysoghecuaxe($machuyen);
-			//echo "$soghe<br>";
 		    for ($i=1; $i < $soghe ; $i++)
 			{
 				$ma=$this->ghe_model->taoma($machuyen);
