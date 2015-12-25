@@ -29,11 +29,12 @@ class Datcho extends CI_Controller{
 		$result['thongtin'] = $this->ChuyenXe_model->thong_tin_chuyen($machuyen);
 
 		$this->load->view('templates/header');
-		$str="Select maghe,trangthai,vitri from ghe where MaChuyen=".$this->db->escape($machuyen);
+		$str="Select maghe,trangthai,vitri,c.giachuyen from ghe  g,chuyenxe c where g.machuyen=".$this->db->escape($machuyen)."
+		and c.machuyen= g.machuyen";
 		$kq=$this->db->query($str);
 		$result['data']=$kq->result();
-		$this->load->model('ChuyenXe_model');
-		$soghe=$this->chuyenxe_model->laysoghecuaxe($machuyen);
+		$this->load->model('Chuyenxe_model');
+		$soghe=$this->Chuyenxe_model->laysoghecuaxe($machuyen);
 		//print_r($result);
 		switch ($soghe) {
 			case 45: $this->load->view('DatCho/datcho_view(45)',$result);
