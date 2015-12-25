@@ -1,0 +1,121 @@
+
+/* ------------CONFIG MAIN------*/
+
+
+.navbar-fixed-top {
+    color: crimson;
+}
+
+.navbar-header {
+    background-color: white;
+}
+
+#menu {
+    background: #333;
+}
+
+.col-lg-6 {
+    padding: 50px;
+}
+
+.col-md-6 {
+    padding: 20px;
+}
+
+.btn-md {
+    float: right;
+}
+
+.row1 {
+    padding-bottom: 20px;
+}
+#submenu1{
+
+}
+#v-menu{
+	float: left;
+	width: 200px;
+	height: 100%;
+}
+.nav .collapse:hover .li{
+	display: block;
+}
+
+#Carousel{
+    height: 250px;
+}
+.datcho{
+    border: 1px solid #999;
+    padding: 10px;
+}
+#wrap-page{
+    
+    margin: 0 auto;
+    background-color: #ebf0fa;
+}
+.row{
+    width: 100%;
+}
+#ghe{
+    
+}
+#line{
+    height: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.khung{
+
+}
+button #mua_ve_btn{
+    float: right;
+}
+
+/*--------------------DAT CHO------------------*/
+#chonghe li
+        {
+        list-style-type: none;
+            display: inline ;
+            margin :4px;padding:4px;
+        background-color: white;font-size: large;
+        border: 1px solid #e4e4e4;text-decoration:none;
+        border-radius: 7px 7px 7px 7px;
+        color: black;
+        
+        width: 60px;
+        height: 20px;
+        text-align: center;
+        /*background:url("<?php echo base_url('assets/img/available_seat_img.gif') ?>") no-repeat scroll 0 0 transparent;*/
+        }
+        .Selected,.dangchon
+        {
+        /*background:url("<?php echo base_url('assets/img/selected_seat_img.gif') ?>") no-repeat scroll 0 0 transparent;*/
+        background-color: #cde88f;
+        }
+        ul>li[name="gheban"],.gheban
+        {
+        background-color: #e7e7e7;
+        /*background:url("<?php echo base_url('assets/img/booked_seat_img.gif') ?>") no-repeat scroll 0 0 transparent;*/
+        }
+        ul>li.ghemau{
+        display: inline;
+        }
+        hr {
+        background-color:blue;
+        }
+        ul>li.hidden{
+        background-color: white;
+        color: white;
+        background:white;
+        border: none;
+        }
+        .cuavo{
+        text-align: right;
+        }
+        #sodoghe{
+        width: 100%;
+        height: auto;
+        }
+input #btn_tim_ve{
+    float: right;
+}

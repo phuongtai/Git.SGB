@@ -1,0 +1,111 @@
+/*#sodoghe>#divbig>#divtang>#divchil>ul> li,#sodoghe>#chonghe>li
+{
+    list-style-type: none;
+    font-size: medium;
+    border: 2px solid #e4e4e4;
+    color: #000;
+    border-radius: 10px;
+    background: #FFF none repeat scroll 0% 0%;
+    margin: 2px auto;
+    text-align: center;
+    padding: 5px;
+}
+#sodoghe>.ghichu>li[class='ghetrong'] ,
+#sodoghe>.ghichu>li[class='dangchon'],
+#sodoghe>.ghichu>li[class='gheban']
+{
+list-style-type: none;
+font-size: medium;
+border: 1px solid #e4e4e4;
+color: #000;
+border-radius: 10px;
+background: #FFF none repeat scroll 0% 0%;
+margin: 2px auto;
+text-align: center;
+padding: 5px;
+display: inline-block;
+}
+#chonghe{
+width: 75%; 
+margin:auto;
+padding:0;
+position:relative;
+left:5%;
+}
+#sodoghe>#divbig>#divtang>#divchil>ul>li.hidden
+{
+   background-color: white;
+    color: white;
+    background:white;
+    border: none;
+    
+}
+#divbig{
+    width: 350px;
+    height: auto;
+}
+#divchil {
+display: inline-block;
+width: 60px;
+min-height: 5em;
+margin: -8px auto;
+
+}
+#divtang
+{
+    width: 350px;
+    display: block;
+    margin-bottom: 20px;
+}
+p{
+    text-decoration: underline;
+}
+#sodoghe>#divbig>#divtang>#divchil>ul> li.Selected,
+#sodoghe>.ghichu>li[class='dangchon']
+{
+    background-color: #cde88f;
+}
+#sodoghe>#divbig>#divtang>#divchil>ul>li[name="gheban"],#sodoghe>.ghichu>li[class='gheban']
+{
+    background-color: #e7e7e7;
+    }*/
+ul{
+    margin-bottom: -5px;
+}
+ul#chonghe>li.hid{
+    background-color: white;
+    color: white;
+    background:white;
+    border: 1px white;
+    width: 30px;
+}
+#sodo{
+    width: 275px;
+    height:auto;
+     margin: 0 auto;
+}
+#maghe
+{
+    text-decoration: none;
+}
+hr{
+    background-color:blue;
+
+}
+ul#chonghe>li{
+    list-style: none;
+    border: 1px solid #999;
+    border-radius: 6px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background: lavender;
+    font-size: 10pt;
+}
+ul#chonghe>li.Selected{
+    background-color: palegreen;
+}
+ul#chonghe>li#ghedadat{
+    background:#999;
+}
