@@ -21,7 +21,8 @@
 			return $soghe;
 
 		}
-		public function thong_tin_chuyen($machuyen){
+		public function thong_tin_chuyen($machuyen)
+    {
 			$mc = $this->db->escape($machuyen);
 			$sql = "SELECT
 				chuyenxe.MaChuyen,
@@ -39,14 +40,6 @@
 			}
 			else return NULL;
 		}
-	}
-
-  public function taoma()
-  {
-    $this->load->model('taoma');
-    $ma=$this->taoma->Timmacuoi("machuyen","chuyenxe","CH",9);
-    return $ma;
-  }
 
   public function add()
   {
