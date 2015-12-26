@@ -1,4 +1,4 @@
-<?php 
+<?php
     function id($value)//vd 9->09 và 10->10
     {
      $id=$value;

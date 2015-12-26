@@ -3,7 +3,7 @@
 		<div class="panel-heading"><span><i class="fa fa-ticket"></i>&nbsp;THÔNG TIN VÉ </span></div>
 		<div class="panel-body">
 			<table class="table" >
-<?php foreach ($thongtin as $value) {?>
+				<?php foreach ($thongtin as $value) {?>
 				<tr>
 					<th>Tuyến Đường:</th>
 					<td><?php echo $value->LoTrinh?></td>
@@ -37,4 +37,3 @@
 </div>
 <input type="text" name="id_ghe" id="id_ghe" class="form-control hidden" value="" >
 <input type="text" name="id_tongtien" id="id_tongtien" class="form-control hidden" value="">
-</div>

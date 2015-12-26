@@ -11,7 +11,7 @@ class Chuyenxe_model extends CI_model
       $this->load->model('ghe_model');
   }
 
-public  function taoma()
+  public function taoma()
     {
       $this->load->model('taoma');
       $ma=$this->taoma->Timmacuoi("machuyen","chuyenxe","CH",9);
@@ -42,8 +42,7 @@ public  function taoma()
     $query= $this->db->get('chuyenxe');
     $query_result= $query->result_object();
     return $query_result;
-    
-      
+
     }
     public function update($id)
     {
