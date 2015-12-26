@@ -13,6 +13,7 @@ $.fn.extend({
 			      output += '-';
 			    output += t.charAt(i);
 			}
+			
 			t=output;
 			$('#thongtindatcho').text(t);
 
