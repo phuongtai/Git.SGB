@@ -13,7 +13,7 @@ $.fn.extend({
 			      output += '-';
 			    output += t.charAt(i);
 			}
-			
+
 			t=output;
 			$('#thongtindatcho').text(t);
 
@@ -94,7 +94,6 @@ $.fn.extend({
 			$('#id_ghe').val(replit);
 			tongtien=accounting.unformat(tongtien);
 			$('#id_tongtien').val(tongtien);
-		// alert($('#id_tongtien').val());
 		return $(this).removeClass('Selected');
 	},
 	MyApplication: {
