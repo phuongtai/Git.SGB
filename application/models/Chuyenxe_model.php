@@ -97,23 +97,6 @@
       }
       return $soghe;
     }
-    public function thong_tin_chuyen($machuyen){
-      $mc = $this->db->escape($machuyen);
-      $sql = "SELECT
-        chuyenxe.MaChuyen,
-        tuyenxe.LoTrinh,
-        DATE_FORMAT(chuyenxe.NgayDi,'%d-%m-%Y') as NgayDi,
-        chuyenxe.ThoiGianXuatBen,
-        chuyenxe.GiaChuyen
-        FROM chuyenxe INNER JOIN tuyenxe 
-        ON chuyenxe.MaTuyen = tuyenxe.MaTuyen 
-        AND chuyenxe.MaTuyen = tuyenxe.MaTuyen
-        where MaChuyen = ".$mc;
-      $rs = $this->db->query($sql);
-      if($rs){
-        return $rs->result();
-      }
-      else return NULL;
-    }
+  
 }
 ?>
