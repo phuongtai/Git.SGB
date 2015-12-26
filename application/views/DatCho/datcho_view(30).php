@@ -6,6 +6,7 @@ require "xulyghe.php";
 	<div id="line"></div>
 </div>
 <div class="col-md-12">
+<div class="row">
 	<div class="col-md-4">
 		<div class="panel panel-success">
 			<div class="panel-heading"><span><i class="fa fa-bus"></i>&nbsp; CHỌN GHẾ VÀ SỐ LƯỢNG</span></div>
@@ -254,7 +255,7 @@ require "xulyghe.php";
 										}
 									}
 									echo "</ul></div>";
-									?>
+								?>
 					</div>
 				</div>
 			</div>
@@ -264,6 +265,7 @@ require "xulyghe.php";
 	<?php $this->load->view('DatCho/thongtinve',$data); ?>
 	<?php  $this->load->view('DatCho/thongtinkhachhang'); ?>
 </form>
+</div>
 </div><!--END Col12-->
 <!--END wrap-page-->
 </body>

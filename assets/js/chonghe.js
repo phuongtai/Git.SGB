@@ -148,6 +148,10 @@ function kiemtraclick()
 		alert("Quý khách vui lòng chọn đủ ghế,Cảm ơn!");
 
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 function insertNthChar(chr,nth) {
   var output = '';
   var t=$('#thongtindatcho').text();
