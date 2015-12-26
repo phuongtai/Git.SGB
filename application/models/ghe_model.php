@@ -1,5 +1,5 @@
 <?php
-	class Ghe_Model extends CI_Model
+	class Ghe_model extends CI_Model
 	{
 		public  function taoma($machuyen)
 		{

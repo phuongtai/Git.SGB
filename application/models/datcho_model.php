@@ -1,5 +1,5 @@
 <?php
-	class DatCho_Model extends CI_Model
+	class Datcho_model extends CI_Model
 	{
 		public  function taoma()
 		{
