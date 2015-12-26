@@ -3,8 +3,6 @@
 	{
 		public  function taoma()
 		{
-
-<<<<<<< HEAD
 			# code...
 			$this->load->model('taoma');
 			$ma=$this->taoma->Timmacuoi("machuyen","chuyenxe","CH",9);
