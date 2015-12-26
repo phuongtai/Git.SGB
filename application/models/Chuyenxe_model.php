@@ -8,19 +8,7 @@
 			$ma=$this->taoma->Timmacuoi("machuyen","chuyenxe","CH",9);
 			return $ma;
 		}
-		public function laysoghecuaxe($machuyen)
-		{
-			$string="select soghe from chuyenxe c,xe ,loaixe lx where c.machuyen='$machuyen' 
-			and c.bienso=xe.bienso and xe.maloaixe=lx.maloaixe";
-			$result = $this->db->query($string);
-			$soghe=0;
-			foreach ($result->result() as $row)
-			{
-				$soghe=$row->soghe;
-			}
-			return $soghe;
-
-		}
+	
 		public function thong_tin_chuyen($machuyen)
     {
 			$mc = $this->db->escape($machuyen);
