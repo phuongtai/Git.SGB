@@ -25,7 +25,7 @@
 			if ($im=="")
 			{
 				$im=1;
-				for ($i=0; $i <$limit ; $i++) { 
+				for ($i=0; $i <$limit ; $i++) {
 					# code...
 					$ketqua.=$khong;
 				}
