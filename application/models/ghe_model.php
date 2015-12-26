@@ -16,7 +16,7 @@
 			//echo "$soghe<br>";
 			$this->load->model('chuyenxe_model');
 			$soghe=$this->chuyenxe_model->laysoghecuaxe($machuyen);
-		    for ($i=1; $i < $soghe ; $i++)
+			for ($i=1; $i < $soghe ; $i++)
 			{
 				$ma=$this->ghe_model->taoma($machuyen);
 				$ma_lg=($i<11)?"LG01":"LG02"; 
