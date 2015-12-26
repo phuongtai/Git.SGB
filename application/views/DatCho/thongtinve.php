@@ -23,7 +23,7 @@
 				<tr>
 					<th >Giá Vé:</th>
 					<td id="giave">
-						<?php echo number_format($value->GiaChuyen) ?></span> Vnđ/Vé
+						<?php echo number_format($value->GiaChuyen) ?></span> VND/Vé
 					</td>
 				</tr>
 				<tr>

@@ -24,7 +24,7 @@
 				$this->db->query($str);
 				//echo "$ma<br>";
 			}
-			
+
 		}
 	}
 ?>
