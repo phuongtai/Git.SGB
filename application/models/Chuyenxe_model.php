@@ -40,13 +40,13 @@
 			else return NULL;
 		}
 	}
-=======
+
   public function taoma()
-    {
-      $this->load->model('taoma');
-      $ma=$this->taoma->Timmacuoi("machuyen","chuyenxe","CH",9);
-      return $ma;
-    }
+  {
+    $this->load->model('taoma');
+    $ma=$this->taoma->Timmacuoi("machuyen","chuyenxe","CH",9);
+    return $ma;
+  }
 
   public function add()
   {
@@ -135,5 +135,4 @@
       else return NULL;
     }
 }
->>>>>>> origin/master
 ?>
