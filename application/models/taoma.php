@@ -4,7 +4,6 @@
 	*/
 	class TaoMa extends CI_Model
 	{
-		
 		public function Timmacuoi($tenid,$tenbang,$chuoi,$limit)
 		{
 			$ketqua="";
