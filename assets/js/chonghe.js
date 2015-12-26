@@ -99,11 +99,7 @@ function kiemtraclick()
 		alert("Quý khách vui lòng chọn đủ ghế,Cảm ơn!");
 
 }
-function get()
-{
-	var t=document.getElementById('txtmaghe').value;
-	alert(t);
-}
+
 function insertNthChar(chr,nth) {
   var output = '';
   var t=$('#thongtindatcho').text();
