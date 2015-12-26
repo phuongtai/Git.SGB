@@ -164,13 +164,3 @@ function insertNthChar(chr,nth) {
 
   return output;
 }
-function total ()
-{
-	var t = $('.Selected').length;
-	t*=150000;
-	var x=accounting.formatNumber(t, {
-	precision : 0,
-	thousand : ","
-})+" VND";
-	alert(x);
-}
